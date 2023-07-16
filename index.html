@@ -8,34 +8,36 @@
     <title>Form</title> 
 </head>
 <body>
-    <!-- heading Sample headline section-->
-    <h5>Sample headline</h5>
-    <p class="content-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-     When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+<!-- heading Sample headline section-->
+   <div class="container">
+    <form action="" method="post">
+        <h5>Sample headline</h5>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+        
+<!-- Your info-->  
+        <h5>Your info</h5>
+        <div class="content">
+            <div class="input-box">
+                <label for="name">Company name</label>
+                <input type="text" placeholder="Company name" name="Company name" required>
+            </div>
+            <div class="input-box">
+                <label for="name">Contact email address</label>
+                <input type="text" placeholder="e.g username@email.com" name="Contact email address" required>
+            </div>
 
-     <!--heading Your info section-->
-
-     <h5>Your info</h5>
-
-     <div class="input-wrapper">
-      <div class="input-group">
-        <label for="input-1">Company name</label>
-        <input type="text" id="input-1" placeholder="Company name">
-      </div>
-      <div class="input-group">
-        <label for="input-2">Contact email address</label>
-        <input type="text" id="input-2" placeholder="e.g username@email.com">
-      </div>
-    </div>
-
-    <!--Share your price section-->
+        </div>
+    </form>
+   </div>
+   
+<!--Share your price section-->
 
     <h5>Share your price</h5>
 
-    <p class="content-2">CTS</p>
+    <p>CTS</p>
 
-    <div class="form-container">
-      <div class="form-row">
+    <div class="content">
+      <div class="input-box">
         <label for="select-emirate"> Emirate</label>
         <select id="select-emirate">
           <option value="Select Emirate">Select Emirate</option>
@@ -48,7 +50,7 @@
           <option value="fujairah">Umm Al quwain</option>
         </select>
       </div>
-      <div class="form-row">
+      <div class="input-box">
         <label for="select-community">Community</label>
         <select id="select-community">
             <option value="Select Community">Select Community</option>
@@ -148,20 +150,20 @@
     </div>
      <!--Enter your price section-->
 
-    <div class="input-wrapper">
-      <div class="input-group">
+    <div class="content">
+      <div class="input-box">
         <label for="input-3">Your price in AED</label>
-        <input type="number" id="input-3" placeholder="Enter your price">
+        <input type="number" placeholder="Enter your price" required>
       </div>
     </div>
 
      <!--Buttons section--> 
 
-  <div class="button-wrapper">  
+  <div class="button-container">  
     <button class="Add-CTS-button">Add more CTS</button>
     <button class="Submit-button">Submit now</button>
   </div>  
 
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
