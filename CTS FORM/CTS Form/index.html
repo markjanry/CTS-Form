@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title> 
+</head>
+<body>
+    <!-- heading Sample headline section-->
+    <h5>Sample headline</h5>
+    <p class="content-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+     When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+
+     <!--heading Your info section-->
+   
+      <h5>Your info</h5>
+
+     <form id="myForm">
+       <div class="input-wrapper">
+       <div class="input-group">
+         <label for="input-1">Company name</label>
+         <input id="input-1" type="text" placeholder="Company name">
+       </div>
+       <div class="input-group">
+         <label for="input-2">Contact email address</label>
+         <input id="input-2" type="text" placeholder="e.g username@email.com">
+       </div>
+     </div>
+ 
+     <!--Share your price section-->
+ 
+     <h5>Share your price</h5>
+     <div id="ctsSection">
+     <p class="content-2">CTS</p>
+    
+     <div class="input-wrapper">
+       <div class="input-group">
+         <label for="select-emirate"> Emirate</label>
+         <select id="select-emirate">
+           <option value="Select Emirate">Select Emirate</option>
+           <option value="dubai">Dubai</option>
+           <option value="abu-dhabi">Sharjah</option>
+           <option value="sharjah">Abu Dhabi</option>
+           <option value="ajman">Fujairah</option>
+           <option value="umm-al-quwain">Ras Al khaimah</option>
+           <option value="ras-al-khaimah">Ajman</option>
+           <option value="fujairah">Umm Al quwain</option>
+         </select>
+       </div>
+       <div class="input-group">
+         <label for="select-community">Community</label>
+         <select id="select-community">
+             <option value="Select Community">Select Community</option>
+             <option value="dubai-marina">Dubai Marina</option>
+             <option value="downtown-dubai">Downtown Dubai</option>
+             <option value="palm-jumeirah">Palm Jumeirah</option>
+             <option value="jlt">Jumeirah Lakes Towers (JLT)</option>
+             <option value="arabian-ranches">Arabian Ranches</option>
+             <option value="emirates-hills">Emirates Hills</option>
+             <option value="jbr">Jumeirah Beach Residence (JBR)</option>
+             <option value="business-bay">Business Bay</option>
+             <option value="the-greens-and-the-views">The Greens and The Views</option>
+             <option value="dubai-silicon-oasis">Dubai Silicon Oasis</option>
+ 
+             <!--Abu Dhabi-->
+ 
+               <option value="al-reef">Al Reef</option>
+               <option value="saadiyat-island">Saadiyat Island</option>
+               <option value="yas-island">Yas Island</option>
+               <option value="al-raha-beach">Al Raha Beach</option>
+               <option value="khalifa-city">Khalifa City</option>
+               <option value="al-mushrif">Al Mushrif</option>
+               <option value="al-bateen">Al Bateen</option>
+               <option value="al-manaseer">Al Manaseer</option>
+               <option value="al-reem-island">Al Reem Island</option>
+               <option value="al-falah-city">Al Falah City</option>
+             
+               <!--Sharjah-->
+ 
+                 <option value="al-nahda">Al Nahda</option>
+                 <option value="al-qasimia">Al Qasimia</option>
+                 <option value="al-taawun">Al Taawun</option>
+                 <option value="al-khan">Al Khan</option>
+                 <option value="al-majaz">Al Majaz</option>
+                 <option value="muwaileh">Muwaileh</option>
+                 <option value="aljada">Aljada</option>
+                 <option value="al-tai">Al Tai</option>
+                 <option value="al-hazana">Al Hazana</option>
+                 <option value="al-nabba">Al Nabba</option> 
+ 
+                 <!--Ajman-->
+ 
+                   <option value="ajman-downtown">Ajman Downtown</option>
+                   <option value="al-rashidiya">Al Rashidiya</option>
+                   <option value="al-mowaihat">Al Mowaihat</option>
+                   <option value="al-jurf">Al Jurf</option>
+                   <option value="emirates-city">Emirates City</option>
+                   <option value="al-rawda">Al Rawda</option>
+                   <option value="al-zahraa">Al Zahraa</option>
+                   <option value="al-nuaimiya">Al Nuaimiya</option>
+                   <option value="masfout">Masfout</option>
+                   <option value="al-hamidiya">Al Hamidi
+                 
+                 <!--Umm Al Quwain-->
+                 
+                   <option value="umm-al-quwain-marina">Umm Al Quwain Marina</option>
+                   <option value="al-salamah">Al Salamah</option>
+                   <option value="al-raas">Al Raas</option>
+                   <option value="al-hamra">Al Hamra</option>
+                   <option value="al-dar-al-baida">Al Dar Al Baida</option>
+                   <option value="mistral">Mistral</option>
+                   <option value="flamingo-villas">Flamingo Villas</option>
+                   <option value="dreamland-aqua-park">Dreamland Aqua Park</option>
+                   <option value="emirates-modern-industrial-area">Emirates Modern Industrial Area</option>
+                   <option value="umm-al-thuoob">Umm Al Thuoob</option>
+                 
+                 <!--Ras Al Khaimah-->
+               
+                   <option value="al-hamra-village">Al Hamra Village</option>
+                   <option value="mina-al-arab">Mina Al Arab</option>
+                   <option value="al-dhait">Al Dhait</option>
+                   <option value="al-seer">Al Seer</option>
+                   <option value="julphar-towers">Julphar Towers</option>
+                   <option value="al-nakheel">Al Nakheel</option>
+                   <option value="al-jazeera">Al Jazeera</option>
+                   <option value="al-marjan-island">Al Marjan Island</option>
+                   <option value="khuzam">Khuzam</option>
+                   <option value="al-mamourah">Al Mamourah</option>
+                 
+                 <!--Fujairah-->              
+ 
+                   <option value="al-faseel">Al Faseel</option>
+                   <option value="dibba">Dibba</option>
+                   <option value="fujairah-city">Fujairah City</option>
+                   <option value="kalba">Kalba</option>
+                   <option value="al-ghurfa">Al Ghurfa</option>
+                   <option value="al-halah">Al Hala</option>
+                   <option value="al-madhab">Al Madhab</option>
+                   <option value="al-majaz">Al Majaz</option>
+                   <option value="sharm">Sharm</option>
+                   <option value="tawyeen">Tawyeen</option>   
+           </select>
+           
+ 
+         </select>
+       </div>
+     </div>
+    
+      <!--Enter your price section-->
+ 
+     <div class="input-wrapper">
+       <div class="input-group">
+         <label for="input-3">Your price in AED</label>
+         <input id="input-3" type="number" min="0"placeholder="Enter your price" required>
+       </div>
+     </div>
+    </div>
+     <!--Buttons section--> 
+
+  <div class="button-wrapper">  
+    <button type="button" id="Add-CTS-button" onclick="clickAddMoreCtsButton()">Add more CTS</button>
+  <div class="input-group">
+    <button type="submit" id="Submit-button" onclick="clickSubmitNowButton()">Submit now</button>
+  </div>
+</form>
+
+
+  <script src="app.js"></script>
+  <script src="app2.js"></script>
+</body>
+ 
+</html>
